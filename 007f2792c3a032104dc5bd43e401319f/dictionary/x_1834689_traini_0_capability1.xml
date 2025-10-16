@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f9cf2f92c3a032104dc5bd43e401315e" label="Capability1" max_length="40" name="x_1834689_traini_0_capability1" type="collection">
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="COTS" sequence="0" value="cots"/>
+                <element inactive_on_update="false" label="Full Stack" sequence="0" value="Full Stack"/>
+                <element inactive_on_update="false" label="JAVANEW" sequence="1" value="javanew"/>
+                <element inactive_on_update="false" label="C.O.T.S" sequence="0" value="C.O.T.S"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
